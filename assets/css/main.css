@@ -1,0 +1,89 @@
+.bg-background {
+    background: #3b5998;
+}
+
+.button_box-single_right {
+    text-align: right;
+}
+
+.two_button_box {
+    display:flex;
+    justify-content:space-between;
+}
+
+.card {
+    border-radius: 0;
+}
+
+.card-header {
+    border-radius: 0;
+}
+
+.nav-sidebar .nav-header {
+    padding: 10px 0px 0px 5px; 
+}
+
+.nav-sidebar .nav-header:not(:first-of-type) {
+    padding: 0.5rem 0px 0px 5px; 
+}
+
+.icon_row {
+    padding:10px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.course_icon {
+    width:49%;
+	background-color:white;
+	border-style: solid;
+	border-color:black;
+	margin: 0 0 10px 0;
+
+}
+
+.course_icon .course_icon-title {
+	background-color:black;
+	padding:5px;
+	color:white
+}
+
+.card {
+    margin-bottom: 10px;
+    background-color: none;
+}
+
+.card-header {
+    padding: 10px;
+}
+
+.card-body {
+    padding: 5px 10px 5px 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-body.info{
+    background-color:#ceecf2;
+}
+
+.card-body.danger {
+    background-color:#f2ced2;
+}
+
+.card-body.warning {
+    background-color:#f2e9ce;
+}
+
+.card-body.success {
+    background-color:#cef2d6;
+}
+
+.card-title {
+    float: none;
+}
+
+.two_flex_column{
+    display:flex;justify-content:space-between
+}
